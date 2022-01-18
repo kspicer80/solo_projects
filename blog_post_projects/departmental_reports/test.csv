@@ -1,4 +1,4 @@
-Z. student_number,course,semester,year,instructor,outcome,score
+student_number,course,semester,year,instructor,outcome,score
 1,English 1,Fall,2021,T. Top,1,2.7
 2,English 1,Fall,2021,T. Top,1,1.5
 3,English 1,Fall,2021,T. Top,1,2.1
