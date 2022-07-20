@@ -18,7 +18,7 @@ def fake_canvas_data_generation(num_of_records):
         course_id = 9999999
         topic_id = 1111111
         topic_title = 'Week 0: Introductions (Section Z)'
-        entry_id = fake.first_name() + fake.last_name()
+        entry_id = fake.unique.first_name() + fake.unique.last_name()
         semester = random.choice(semesters)
         sentences.append(fake.sentence(10))
         sentences.append(random.choice(author_list))
