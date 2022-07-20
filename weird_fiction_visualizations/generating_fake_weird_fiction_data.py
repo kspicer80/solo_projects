@@ -5,7 +5,8 @@ from faker import Faker
 import datetime
 import random 
 from random import randint
-
+import os
+print(os.getcwd())
 semesters = ['Fall 2019', 'Fall 2020', 'Fall 2021', 'Fall 2022', 'Spring 2019', 'Spring 2020', 'Spring 2021', 'Spring 2022']
 author_list = ['Stephen King', 'Dino Buzzati', 'Jeff VanderMeer', 'Leonora Carrington', 'William Sansom']
 
@@ -18,13 +19,13 @@ def fake_canvas_data_generation(num_of_records):
         course_id = 9999999
         topic_id = 1111111
         topic_title = 'Week 0: Introductions (Section Z)'
-        entry_id = fake.unique.first_name() + fake.unique.last_name()
+        entry_id = fake.unique.first_name() + ' ' + fake.unique.last_name()
         semester = random.choice(semesters)
         sentences.append(fake.sentence(10))
         sentences.append(random.choice(author_list))
         entry_message = ' '.join(sentences)
         entry_word_count = randint(100, 999)
-        reply_id = fake.first_name() + fake.last_name()
+        reply_id = fake.first_name() + ' ' + fake.last_name()
         replies.append(fake.sentence(5))
         replies.append(random.choice(author_list))
         reply_message = ' '.join(replies)
@@ -44,7 +45,7 @@ def fake_canvas_data_generation(num_of_records):
     return(dataframe)
 
 fake_df = pd.DataFrame(fake_canvas_data_generation(100))
-fake_df.to_csv('fake_dataset_csv.csv', index=False)
+fake_df.to_csv(r'C:\Users\KSpicer\Documents\GitHub\solo_projects\weird_fiction_visualizations\datasets\fake_dataset_csv.csv', index=False)
 
 
 
