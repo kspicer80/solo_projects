@@ -55,7 +55,7 @@ all_author_and_student_names = {
 54: ['Gahan Wilson','Gahan','Wilson','The Sea Was Wet As Wet Could Be'],
 55: ['Daphne du Maurier','Daphne','du Maurier',"Don't Look Now"],
 56: ['Robert Aickman','Aickman','The Hospice'],
-57: ['Dennis Etchison','Dennis','Etchison','It Only Comes Out at Night'
+57: ['Dennis Etchison','Dennis','Etchison','It Only Comes Out at Night'],
 58: ['James Tiptree','Tiptree',"The Psychologist Who Wouldn't Do Terrible Things to Rats"],
 59: ['Eric Basso','Basso','The Beak Doctor'],
 60: ['Jamaica Kincaid','Jamaica','Kincaid','My Mother'],
@@ -67,14 +67,14 @@ all_author_and_student_names = {
 66: ['Egnaro'],
 67: ['Joanna Russ','Joanna','Russ','The Little Dirty Girl'],
 68: ['The New Rays'],
-69: ['Premendra Mitra','Premendra','Mitra','The Discovery of Telenapota
+69: ['Premendra Mitra','Premendra','Mitra','The Discovery of Telenapota'],
 70: ['F. Paul Wilson','Paul Wilson','Soft'],
 71: ['Octavia E. Butler','Octavia','E. Butler','Bloodchild'],
 72: ['Clive Barker','Clive','Barker','In the Hills, the Cities','the Cities'],
 73: ['Leena Krohn','Leena','Krohn','Tainaron: Mail From Another City'],
-74: ['Garry Kilworth','Garry','Kilworth','Hogfoot Right and Bird-hands'
+74: ['Garry Kilworth','Garry','Kilworth','Hogfoot Right and Bird-hands'],
 75: ['Lucius Shepard','Lucius','Shepard','Shades'],
-76: ['Harlan Ellison','Harlan','Ellison','The Function of Dream Sleep']
+76: ['Harlan Ellison','Harlan','Ellison','The Function of Dream Sleep'],
 77: ['Ben Okri','Okri','Worlds That Flourish'],
 78: ['Elizabeth Hand','Elizabeth','Hand','The Boy in the Tree'],
 79: ['Joyce Carol Oates','Joyce','Carol Oates','Family'],
