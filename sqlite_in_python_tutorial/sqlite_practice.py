@@ -1,8 +1,8 @@
 import sqlite3
 
-conn = sqlite3.connect('customers.db')
+#conn = sqlite3.connect('customers.db')
 
-c = conn.cursor()
+#c = conn.cursor()
 
 # Creating the Table:
 #c.execute("""CREATE TABLE customers(
@@ -53,12 +53,79 @@ c.executemany("INSERT INTO customers VALUES (?, ?, ?)", many_customers)
     #print(item[0] + " " + item[1] + " " + item[2])
 
 # Ordering Results
-c.execute("SELECT rowid, * FROM customers ORDER BY rowid DESC")
+#c.execute("SELECT rowid, * FROM customers ORDER BY rowid DESC")
+'''
+# AND/OR:
+c.execute("SELECT rowid, * FROM customers WHERE last_name LIKE 'Po%' OR rowid = 4")
 items = c.fetchall()
 for item in items:
     print(item)
+'''
+
+# Limiting Results returned:
+#c.execute("SELECT rowid, * FROM customers ORDER BY rowid DESC LIMIT 2")
+#items = c.fetchall()
+#for item in items:
+    #print(item)
+
+# Deleting a Table:
+#c.execute("DROP TABLE customers")
+
+# Our App: Show All Function--Query the Database and Return All Records
+def show_all():
+    conn = sqlite3.connect('customers.db')
+    c = conn.cursor()
+
+    c.execute("SELECT rowid, * FROM customers")
+    items = c.fetchall()
+    
+    for item in items:
+        print(item)
+
+    conn.commit()
+    conn.close()
+
+# Add a new record to the table:
+def add_one(first_name, last_name, email):
+    conn = sqlite3.connect('customers.db')
+    c = conn.cursor()
+    c.execute("INSERT INTO customers VALUES (?, ?, ?)", (first_name, last_name, email))
+    conn.commit()
+    conn.close()
+
+# To delete a row, rowid needs to be passed as a string, NOT an integer
+def delete_one(id):
+    conn = sqlite3.connect('customers.db')
+    c = conn.cursor()
+    c.execute("DELETE FROM customers WHERE rowid = (?)", id)
+    conn.commit()
+    conn.close()
+    print(f"Record with id# {id} has been deleted.")
+
+def add_many(list):
+    conn = sqlite3.connect('customers.db')
+    c = conn.cursor()
+    c.executemany("INSERT INTO customers VALUES (?, ?, ?)", (list))
+    conn.commit()
+    conn.close()
+    print(f"Record with id# {id} has been added.")
+
+def email_lookup(email):
+    conn = sqlite3.connect('customers.db')
+    c = conn.cursor()
+    c.execute("SELECT rowid, * FROM customers WHERE e_mail = (?)", (email,))
+    items = c.fetchall()
+    
+    for item in items:
+        print(item)
+    conn.commit()
+    conn.close()
+    
+
 
 # Searching for Specific Things
-print("Commands executed successfully ...")
-conn.commit()
-conn.close()
+#print("Commands executed successfully ...")
+#conn.commit()
+#conn.close()
+
+
