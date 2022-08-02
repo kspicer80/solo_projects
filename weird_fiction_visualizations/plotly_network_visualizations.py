@@ -8,8 +8,9 @@ from bokeh.plotting import figure
 from bokeh.plotting import from_networkx
 from bokeh.palettes import Blues8, Reds8, Purples8, Oranges8, Viridis8, Spectral8
 from bokeh.transform import linear_cmap
+import plotly.graph_objects as go
 
-edges_df = pd.read_csv('gephi_edges.csv')
+edges_df = pd.read_csv(r'weird_fiction_visualizations\gephi_edges.csv')
 edges_df = edges_df.dropna()
 edges_df['target'] = edges_df['target'].astype('int')
 
@@ -60,3 +61,29 @@ plot.renderers.append(network_graph)
 
 show(plot)
 
+'''
+# Trying to color-code nodes based on semester and week_read (following https://community.plotly.com/t/not-able-to-change-the-marker-color-based-on-the-column-value/46374): 
+fig = go.Figure(data=go.Scattergeo(
+        lon = df['long'],
+        lat = df['lat'],
+        text = df['text'],
+        mode = 'markers',
+        marker_color = df['cnt'],
+        ))
+
+fig = go.Figure(data=go.Scattergeo(
+        semester = edges_df['semester'],
+        week_read = edges_df['week_read'],
+        mode = 'markers',
+        marker_color = semester_colors,
+        ))
+''' 
+
+semester_colors = np.unique(edges_df['semester'].values)
+fig = go.Figure(
+    data=go.Scattergeo(semester=edges_df['semester'], 
+    week_read=edges_df['week_read'], 
+    mode='markers', marker_color=semester_colors))
+
+fig.update_layout(title='The Customer Locations')
+fig.show()
