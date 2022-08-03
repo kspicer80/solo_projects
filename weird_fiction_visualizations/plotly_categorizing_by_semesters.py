@@ -92,8 +92,7 @@ node_trace = go.Scatter(
         size=10,
         line_width=2))
 
-for node in enumerate(G.adjacency):
-
+node_trace.marker.color = [df.color for x in df.color]
 
 fig = go.Figure(data=[edge_trace, node_trace],
              layout=go.Layout(
