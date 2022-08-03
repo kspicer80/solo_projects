@@ -1,0 +1,397 @@
+id,name,semester
+1,Lovecrafts Supernatural Horror,all
+2,Lois Tyson,all
+3,Michael Moorcock,all
+4,Jeff VanderMeers Introduction,all
+5,Sigmund Freud,all
+6,Alfred Kubin,all
+7,F. Marion Crawford,all
+8,Algernon Blackwood,all
+9,Saki,all
+10,M. R. James,all
+11,Lord Dunsany,all
+12,Gustav Meyrink,all
+13,Georg Heym,all
+14,Hans Heinz Ewers,all
+15,Rabindranath Tagore,all
+16,Luigi Ugolini,all
+17,A. Merritt,all
+18,Ryonuoskue Akutagawa,all
+19,Francis Stevens,all
+20,In the Penal Colony,all
+21,Stefan Grabinski,all
+22,H. F. Arnold,all
+23,The Dunwich Horror,all
+24,Margaret Irwin,all
+25,Mainz,all
+26,Shadowy,all
+27,Charles Lamb,all
+28,Clark Ashton Smith,all
+29,Hagiwara Sakutaro,all
+30,Hugh Walpole,all
+31,Bruno Schulz,all
+32,Robert Barbour Johnson,all
+33,Fritz Lieber,all
+34,Leonora Carrington,all
+35,Donald A. Wollheim,all
+36,Ray Bradbury,all
+37,The Long Sheet,all
+38,Jorge Luis Borges,all
+39,Olympe Bhely-Quenum,all
+40,Summer People,all
+41,Margaret St. Clair,all
+42,Robert Bloch,all
+43,Amos Tutuola,all
+44,Jerome Bixby,all
+45,Augusto Monterroso,all
+46,Julio Cortazar,all
+47,A Woman Seldom,all
+48,Charles Beaumont,all
+49,Mervyn Peake,all
+50,Colomber,all
+51,Michel Bernanos,all
+52,Merce Rodoreda,all
+53,Claude Seignolle,all
+54,Gahan Wilson,all
+55,Daphne du Maurier,all
+56,Robert Aickman,all
+57,Dennis Etchison,all
+58,James Tiptree,all
+59,Eric Basso,all
+60,Jamaica Kincaid,all
+61,George R. R. Martin,all
+62,Bob Leman,all
+63,Ramsey Campbell,all
+64,Michael Shea,all
+65,William Gibson/John Shirley,all
+66,Egnaro,all
+67,Joanna Russ,all
+68,The New Rays,all
+69,Premendra Mitra,all
+70,F. Paul Wilson,all
+71,Octavia E. Butler,all
+72,Clive Barker,all
+73,Leena Krohn,all
+74,Garry Kilworth,all
+75,Lucius Shepard,all
+76,Harlan Ellison,all
+77,Ben Okri,all
+78,Elizabeth Hand,all
+79,Joyce Carol Oates,all
+80,Poppy Z. Brite,all
+81,Michal Ajvaz,all
+82,Karen Joy Fowler,all
+83,Kathe Koja,all
+84,Haruki Murakami,all
+85,Lisa Tuttle,all
+86,Marc Laidlaw,all
+87,Steven Utley,all
+88,Martin Simpson,all
+89,William Browning Spencer,all
+90,Delicate,all
+91,Stephen King,all
+92,Angela Carter,all
+93,Craig Padawer,all
+94,Stepan Chapman,all
+95,Tanith Lee,all
+96,Kelly Link,all
+97,Caitlin R. Kiernan,all
+98,Michael Chabon,all
+99,Details,all
+100,Michael Cisco,all
+101,Neil Gaiman,all
+102,Jeff VanderMeer,all
+103,The Beautiful Gelreesh,all
+104,Thomas Ligotti,all
+105,Brian Evenson,all
+106,Mark Samuels,all
+107,Daniel Abraham,all
+108,Margo Lanagan,all
+109,T. M. Wright,all
+110,Laird Barron,all
+111,Liz Williams,all
+112,Reza Negarestani,all
+113,Micaela Morrissette,all
+114,Steve Duffy,all
+115,Stephen Graham Jones,all
+116,J. Robert Lennon,all
+117,K. J. Bishop,all
+118,Afterweird,all
+119,Shirley Jacksons The Lottery,all
+120,Dino Buzzatis The Falling Girl,all
+121,Franz Kafkas Before the Law,all
+122,Laura Neato,all
+123,Notes on Weird Fiction,all
+124,Mark Fisher,all
+125,JoleneA,Fall 2019
+126,ChristianB,Fall 2019
+127,EmmaB,Fall 2019
+128,JordanC,Fall 2019
+129,ClaytonC,Fall 2019
+130,DavidC,Fall 2019
+131,MeganC,Fall 2019
+132,DominicC,Fall 2019
+133,JillianC,Fall 2019
+134,SophiaL,Fall 2019
+135,JackG,Fall 2019
+136,DanielleG,Fall 2019
+137,OliviaH,Fall 2019
+138,MartinaK,Fall 2019
+139,GillianK,Fall 2019
+140,AliciaL,Fall 2019
+141,JessicaL,Fall 2019
+142,DarianL,Fall 2019
+143,AamnaM,Fall 2019
+144,MelissaM,Fall 2019
+145,RyanM,Fall 2019
+146,DeniseM,Fall 2019
+147,TiffaneyM,Fall 2019
+148,CassandraN,Fall 2019
+149,ConradO,Fall 2019
+150,NelesaO,Fall 2019
+151,AshleyP,Fall 2019
+152,JacobP,Fall 2019
+153,EboniR,Fall 2019
+154,ArelyS,Fall 2019
+155,JoeS,Fall 2019
+156,JessicaS,Fall 2019
+157,AndreyS,Fall 2019
+158,KevinS,all
+159,JessicaSt,Fall 2019
+160,TaylorV,Fall 2019
+161,CierraV,Fall 2019
+162,DaniellaW,Fall 2019
+163,JazmynW,Fall 2019
+164,JessicaW,Fall 2019
+165,ClarissaW,Fall 2019
+166,TravisW,Fall 2019
+167,DanielB,Spring 2020
+168,DannyB,Spring 2020
+169,AlyiaC,Spring 2020
+170,OliviaD,Spring 2020
+171,DechenD,Spring 2020
+172,CarlosF,Spring 2020
+173,GrantF,Spring 2020
+174,MelissaG,Spring 2020
+175,MeganI,Spring 2020
+176,YuruJ,Spring 2020
+177,BrandonK,Spring 2020
+178,LillianK,Spring 2020
+179,AamnaM,Spring 2020
+180,AlexisM,Spring 2020
+181,DanielleM,Spring 2020
+182,AnnaN,Spring 2020
+183,DeeO,Spring 2020
+184,KaylynnP,Spring 2020
+185,EllieP,Spring 2020
+186,ThomasS,Spring 2020
+187,HannahSw,Spring 2020
+188,FernandoT,Spring 2020
+189,AnastaziaW,Spring 2020
+190,JoshuaW,Spring 2020
+191,YunluZ,Spring 2020
+192,NathanA,Summer 2020
+193,MichaelB,Spring 2020
+194,Priscilla,Summer 2020
+195,DanC,Summer 2020
+196,KellyG,Summer 2020
+197,LillianG,Summer 2020
+198,MargaretH,Summer 2020
+199,AmiraH,Summer 2020
+200,HannahK,Summer 2020
+201,CarleenK,Summer 2020
+202,KarinaL,Summer 2020
+203,AlyssaM,Summer 2020
+204,TerraM,Summer 2020
+205,LilyO,Summer 2020
+206,TabithaO,Summer 2020
+207,AllieO,Summer 2020
+208,MichaelP,Summer 2020
+209,KaylaS,Summer 2020
+210,AlexisR,Fall 2020
+211,AlysaK,Fall 2020
+212,AlyssaD,Fall 2020
+213,AmandaW,Fall 2020
+214,BriannaF,Fall 2020
+215,CalieB,Fall 2020
+216,CarlosC,Fall 2020
+217,DerekW,Fall 2020
+218,EricM,Fall 2020
+219,ErikaF,Fall 2020
+220,EsmeraldaC,Fall 2020
+221,HaileyH,Fall 2020
+222,JaneeseJ,Fall 2020
+223,JasmineE,Fall 2020
+224,JeneenA,Fall 2020
+225,JessicaH,Fall 2020
+226,JessicaK,Fall 2020
+227,JoshuaC,Fall 2020
+228,KalynS,Fall 2020
+229,KendallP,Fall 2020
+230,KyaK,Fall 2020
+231,LizbethP,Fall 2020
+232,LukeM,Fall 2020
+233,MadisonE,Fall 2020
+234,MakaylaB,Fall 2020
+235,MakaylaS,Fall 2020
+236,MariaelaM,Fall 2020
+237,MartinR,Fall 2020
+238,MartineB,Fall 2020
+239,MeilingP,Fall 2020
+240,MichaelW,Fall 2020
+241,MwansaP,Fall 2020
+242,NicholasC,Fall 2020
+243,NicholasJ,Fall 2020
+244,SamreenM,Fall 2020
+245,ShannonS,Fall 2020
+246,ShelbiW,Fall 2020
+247,SydneyH,Fall 2020
+248,TimothyW,Fall 2020
+249,YailynG,Fall 2020
+250,YazmineM,Fall 2020
+251,AlissaA,Spring 2021
+252,EJS,Spring 2021
+253,JalenC,Spring 2021
+254,LindaE,Spring 2021
+255,MelissaG,Spring 2021
+256,AylaG,Spring 2021
+257,KellyJ,Spring 2021
+258,RyanJ,Spring 2021
+259,JacobK,Spring 2021
+260,StephanyL,Spring 2021
+261,HenryL,Spring 2021
+262,ChristinaL,Spring 2021
+263,VanessaM,Spring 2021
+264,MaKenzieM,Spring 2021
+265,LiliN,Spring 2021
+266,AdeO,Spring 2021
+267,AlondraO,Spring 2021
+268,AshleyR,Spring 2021
+269,KaylieS,Spring 2021
+270,HannaS,Spring 2021
+271,CarlyV,Spring 2021
+272,AdrianV,Spring 2021
+273,KatarinaW,Spring 2021
+274,JewelA,Spring 2021
+275,JessicaA,Spring 2021
+276,HaleyB,Spring 2021
+277,GregoryB,Spring 2021
+278,JosephB,Spring 2021
+279,DanielB,Spring 2021
+280,JusteneC,Spring 2021
+281,MorganC,Spring 2021
+282,EricF,Spring 2021
+283,HunterF,Spring 2021
+284,NoellieD,Spring 2021
+285,TaliaJ,Spring 2021
+286,IanK,Spring 2021
+287,VincentL,Spring 2021
+288,AfreenM,Spring 2021
+289,EricN,Spring 2021
+290,EvelynO,Spring 2021
+291,SamuelP,Spring 2021
+292,JohnR,Spring 2021
+293,IsabellaR,Spring 2021
+294,AmariS,Spring 2021
+295,LoganS,Spring 2021
+296,DanielleS,Spring 2021
+297,SarahV,Spring 2021
+298,PaolaV,Spring 2021
+299,ElizabethC,Summer 2021
+300,MackenzieC,Summer 2021
+301,AlliahC,Summer 2021
+302,ChristinaC,Summer 2021
+303,AidanF,Summer 2021
+304,MarlinF,Summer 2021
+305,DianeG,Summer 2021
+306,AudreyH,Summer 2021
+307,RyanK,Summer 2021
+308,CheridanM,Summer 2021
+309,LaneyM,Summer 2021
+310,DianaO,Summer 2021
+311,ThaminahR,Summer 2021
+312,PaytonR,Summer 2021
+313,RobertR,Summer 2021
+314,TichinaT,Summer 2021
+315,JasonT,Summer 2021
+316,EmilyV,Summer 2021
+317,LukeW,Summer 2021
+318,ClaireW,Summer 2021
+319,FatimaZ,Summer 2021
+320,JudithA,Fall 2021
+321,DayanaraA,Fall 2021
+322,DesireeA,Fall 2021
+323,VincentB,Fall 2021
+324,ChelseaB,Fall 2021
+325,AniyahB,Fall 2021
+326,SalvatoreC,Fall 2021
+327,JanV,Fall 2021
+328,RyanD,Fall 2021
+329,MelanyD,Fall 2021
+330,JaclynD,Fall 2021
+331,RussellE,Fall 2021
+332,BiancaE,Fall 2021
+333,PeytonG,Fall 2021
+334,KaizerG,Fall 2021
+335,SamanthaH,Fall 2021
+336,JayceeJ,Fall 2021
+337,JoshK,Fall 2021
+338,AndrewL,Fall 2021
+339,MatthewL,Fall 2021
+340,KarenM,Fall 2021
+341,NadeenM,Fall 2021
+342,JohnM,Fall 2021
+343,SeanM,Fall 2021
+344,ElenaM,Fall 2021
+345,ShannonO,Fall 2021
+346,SilasO,Fall 2021
+347,WendyP,Fall 2021
+348,SamR,Fall 2021
+349,MirianR,Fall 2021
+350,SamanthaR,Fall 2021
+351,EmmanuelS,Fall 2021
+352,HannahS,Fall 2021
+353,TaraT,Fall 2021
+354,MadisenT,Fall 2021
+355,ReannaV,Fall 2021
+356,JacquelineV,Fall 2021
+357,MelaniV,Fall 2021
+358,JenV,Fall 2021
+359,BrandiV,Fall 2021
+360,AlaysiaC,Spring 2022
+361,AndresV,Spring 2022
+362,ArykaA,Spring 2022
+363,BenjaminM,Spring 2022
+364,BraxtinM,Spring 2022
+365,BriannaQ,Spring 2022
+366,CarolineD,Spring 2022
+367,DelaneyJ,Spring 2022
+368,HunterD,Spring 2022
+369,IvoryL,Spring 2022
+370,JaresetL,Spring 2022
+371,Jean-GabrielG,Spring 2022
+372,JosephineH,Spring 2022
+373,JulieM,Spring 2022
+374,JustineF,Spring 2022
+375,KarlaA,Spring 2022
+376,KrzysztofN,Spring 2022
+377,LaMarcusH,Spring 2022
+378,LeenR,Spring 2022
+379,LeslieD,Spring 2022
+380,LisetteP,Spring 2022
+381,LoganM,Spring 2022
+382,LucasW,Spring 2022
+383,LuisG,Spring 2022
+384,MackenzieC,Spring 2022
+385,MadisonC,Spring 2022
+386,MaraD,Spring 2022
+387,MaryamA,Spring 2022
+388,MeaganW,Spring 2022
+389,NadavG,Spring 2022
+390,RebekahK,Spring 2022
+391,RobyT,Spring 2022
+392,RosaiselaC,Spring 2022
+393,SavannahJ,Spring 2022
+394,StephanieC,Spring 2022
+395,WilliamA,Spring 2022
+396,WillM,Spring 2022
