@@ -22,7 +22,6 @@ title = 'Weird Fiction Discussion Board Visualization'
 
 colors = list(zip(df.source, df.semester))
 
-
 #print(np.unique(df['semester'].values))
 
 '''
