@@ -1,20 +1,24 @@
-*Course: Course Number Section Title*
+*Course: {course_name} {section} {title}*
 
-Semester:      
-Time:      
+Semester: {semester}     
+Time: {time}      
 
-*Prerequisite: Course Number Title*
+*Prerequisite: {prereq_string}*
 
-*Materials: List Text and Materials*
+*Materials:*
 
-*Professor: Name*
+* {text_1}
+* {text_2}
+* {text_3}
+* {text_4}
 
-*Title: *
+*Professor: {professor_name}*
+*Title: {professor_title}*
 
-Office:      
-Office Hours:      
-Phone:      
-Email:      
+Office: {office}
+Office Hours: {office_hours}      
+Phone: {phone}
+Email: {email}
 Fax(If applicable):      
 
 *USF Mission Statement:*
@@ -26,13 +30,22 @@ through service and leadership.
 
 *Course Description:*
 
-From USF Catalog; include IAI if applicable
+{course_description}
 
 *Course Objectives/Outcomes:*
 
 *By the end of this course the student will be able to:*
 
-*Course Requirements:* 
+1. {outcome_1}
+2. {outcome_2}
+3. {outcome_3}
+
+*Course Requirements:*  
+
+1. {course_req1}
+2. {course_req2}
+3. {course_req3}
+4. {course_req4}
 
 *Students will be expected to:*
 
@@ -109,12 +122,12 @@ For any technical support issues that are not related to Canvas, please contact 
 
 #### Scheduling:
 
-| Week | Date | In-Class | Homework for the Day |
+| Week | Day/Date | In-Class | Homework for the Day |
 |---|---|---|---|
 | 1 |   |   |   |
-| 1 |   |   |   |
-| 1 |   |   |   |
-| 2 |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|  |   |   |   |
 | 2 |   |   |   |
 | 2 |   |   |   |
 | 3 |   |   |   |
